@@ -88,75 +88,58 @@ header nav{
 }
 /*---------------------------------------------------------conteudo da pag--------------------------------------------------------------*/
 
-.container {
-    display: flex; /* Utilizando flexbox */
-    justify-content: space-between; /* Espaçamento entre os elementos */
-    margin: 20px;
-    margin-left: 300px;
-    width: 1000px;
-    height: 800px;
 
-}
-
-/* Estilo para o retângulo de atualizações à esquerda */
-.atualizacoes {
-    width: 65%; /* Largura de 65% da tela */
+.config-container {
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 50px;
     padding: 20px;
     background-color: #E8A6D9;
     border-radius: 8px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.atualizacoes h2 {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     color: #ffffff;
-    font-size: 24px;
-    margin-bottom: 10px;
-    text-align: center;
 }
 
-.atualizacoes p {
-    font-size: 18px;
-    color: #ffffff;
-    text-align: center;
-}
-
-/* Estilo para os botões à direita */
-.botoes {
-    width: 30%; /* Largura de 30% da tela */
+.tabs {
     display: flex;
-    flex-direction: column; /* Os botões ficam em uma coluna */
-    gap: 30px; /* Espaçamento entre os botões */
-    margin-left: 80px;
-    margin-top: 220px;
+    justify-content: space-around;
+    margin-bottom: 20px;
 }
 
-/* Estilo para cada botão */
-.botao {
-    display: block;
-    padding: 15px;
+.tablinks {
+    background-color: #ad679d;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    flex: 1;
     text-align: center;
-    background-color: #E8A6D9;
-    color: white;
-    text-decoration: none;
-    font-size: 18px;
-    border-radius: 8px;
-    transition: background-color 0.3s ease;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    transition: background-color 0.3s;
 }
 
-.botao:hover {
-    background-color: #D68FCF; /* Cor de fundo do botão ao passar o mouse */
+.tablinks:hover {
+    background-color: #915683;
 }
 
-.botao2 {
-    display: block;
-    padding: 15px;
-    text-align: center;
-    background-color: #fcbded;
+.tablinks.active {
+    background-color: #915683;
     color: white;
-    text-decoration: none;
-    font-size: 18px;
-    border-radius: 8px;
-    transition: background-color 0.3s ease;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.tabcontent {
+    display: none;
+    padding: 20px;
+}
+
+label {
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+input[type="checkbox"], select {
+    margin-top: 5px;
+}
+
+.tabs{
+    color: #ffffff;
 }

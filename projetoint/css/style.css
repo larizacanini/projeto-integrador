@@ -23,7 +23,6 @@ header nav{
     display: flex; /* Exibe os botões lado a lado */
     align-items: center; /* Alinha verticalmente os itens no centro */
 }
-
 #botao a {
     text-decoration: none;
     color: #ffffff;
@@ -51,26 +50,20 @@ header nav{
 #botao a:hover::after {
     width: 100%; /* Expande a linha para a largura do texto */
 }
-
 /* Adiciona a barra vertical entre os botões */
 #botao a:not(:last-child) {
     border-right: 2px solid #ffffff; /* Barra vertical */
 }
-
 /* Ajusta a altura dos botões */
 #botao a {
     display: inline-block;
     height: 100%;
     line-height: 50px; /* Centraliza verticalmente o texto nos botões */
 }
-
-
-
 /* Imagem do perfil e configuração no canto superior direito */
 #botao1, #botao2 {
     display: inline-block;
 }
-
 #botao1 img, #botao2 img {
     height: 40px; /* Ajuste o tamanho da imagem */
     width: 40px; /* Ajuste o tamanho da imagem */
@@ -78,7 +71,6 @@ header nav{
     cursor: pointer; /* Aponta o cursor para as imagens */
     margin-bottom: 250px;
 }
-
 #botao1 a, #botao2 a {
     display: flex;
     flex-direction: row;
@@ -91,14 +83,11 @@ header nav{
     position: absolute; /* Posiciona os botões no canto superior direito */
     top: 65px; /* Ajuste a distância do topo */
     right: 30px; /* Ajuste a distância da direita */
-
 }
 #botao1 img:hover, #botao2 img:hover {
     transform: scale(1.1); /* Aumenta um pouco a imagem ao passar o mouse */
 }
-
 /*---------------------------------------------------------conteudo da pag--------------------------------------------------------------*/
-
 /* Contêiner dos quadrados */
 #quadrado-container {
     display: flex; /* Exibe os quadrados em linha */
@@ -106,7 +95,6 @@ header nav{
     justify-content: center; /* Centraliza os quadrados horizontalmente */
     padding: 20px; /* Adiciona espaçamento interno no contêiner */
 }
-
 /* Estilo dos quadrados */
 .quadrado {
     width: 430px; /* Largura de cada quadrado */
@@ -123,14 +111,11 @@ header nav{
     color: #ffffff;
     font-weight: bold;
     font-size: 30px;
-
 }
-
 .quadrado:hover {
     transform: scale(1.05); /* Amplia levemente ao passar o mouse */
     box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.15); /* Aumenta a sombra no hover */
 }
-
 /* Contêiner dos quadrados */
 #quadrado-container2 {
     display: flex; /* Exibe os quadrados em linha */
@@ -138,7 +123,6 @@ header nav{
     justify-content: center; /* Centraliza os quadrados horizontalmente */
     padding: 20px; /* Adiciona espaçamento interno no contêiner */
 }
-
 /* Contêiner dos quadrados */
 #quadrado-container3 {
     display: flex; /* Exibe os quadrados em linha */
@@ -146,7 +130,3 @@ header nav{
     justify-content: center; /* Centraliza os quadrados horizontalmente */
     padding: 20px; /* Adiciona espaçamento interno no contêiner */
 }
-
-
-
-
